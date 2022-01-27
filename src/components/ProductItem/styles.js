@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProductItemContainer = styled.div`
   box-sizing: border-box;
@@ -34,7 +34,9 @@ export const ProductItemPrice = styled.span`
   width: 100%;
 `;
 
-export const ProductItemImage = styled.img``;
+export const ProductItemImage = styled.img`
+  width: 100%;
+`;
 
 export const ProductItemButtonAdd = styled.button`
   background-color: #0fa36b;
